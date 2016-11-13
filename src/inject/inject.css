@@ -1,0 +1,40 @@
+#bss-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#bss-overlay .content {
+  background: red;
+  color: #FFF;
+  display: block;
+  width: 50%;
+  height: 50%;
+	padding: 20px;
+  margin: auto;
+}
+
+#bss-overlay .content .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#bss-h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 28pt;
+}
+
+#bss-overlay .content p, #bss-overlay .content li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

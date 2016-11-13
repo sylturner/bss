@@ -1,0 +1,54 @@
+{
+  "name": "Bullshit Spotter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Spot bullshit!",
+  "homepage_url": "http://sylturner.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+	"web_accessible_resources": [
+		"js/jquery.min.js",
+		"src/data/sites.json"
+	],
+
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "js/jquery/jquery.min.js",
+      "js/URI.js",
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "options_page": "src/options_custom/index.html",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "browser action demo",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "contentSettings",
+    "tabs",
+		"webNavigation",
+    "*://*/*",
+		"background"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
+}

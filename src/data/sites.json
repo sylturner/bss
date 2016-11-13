@@ -1,0 +1,82 @@
+{
+  "occupydemocrats.com":
+  {
+    "name": "Occupy Democrats",
+    "categories": ["left-wing"]
+  },
+  "winningdemocrats.com":
+  {
+    "name": "Winning Democrats",
+    "categories": ["left-wing", "garbage"]
+  },
+  "westernjournalism.com":
+  {
+    "name": "Western Journalism",
+    "categories": ["right-wing", "garbage"]
+  },
+  "lifenews.com":
+  {
+    "name": "Life News",
+    "categories": ["right-wing", "garbage"]
+  },
+  "breitbart.com":
+  {
+    "name": "Breitbart",
+    "categories": ["right-wing", "misinformation"]
+  },
+  "infowars.com":
+  {
+    "name": "Infowars",
+    "categories": ["conspiracy", "misinformation"]
+  },
+  "infowars.com":
+  {
+    "name": "Infowars",
+    "categories": ["conspiracy", "misinformation"]
+  },
+  "chicksontheright.com":
+  {
+    "name": "Chicks on the Right",
+    "categories": ["right-wing", "garbage", "clickbait"]
+  },
+  "bizpacreview.com":
+  {
+    "name": "Bizpac Review",
+    "categories": ["right-wing", "garbage", "clickbait"]
+  },
+  "thefederalistpapers.org":
+  {
+    "name": "The Federalist Papers Project",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  },
+  "donaldtrumpnews.co":
+  {
+    "name": "Donald Trump News",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  },
+  "yesimright.com":
+  {
+    "name": "Yes I'm RIGHT",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  },
+  "angrypatriotmovement.com":
+  {
+    "name": "Angry Patriot",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  },
+  "thedcgazette.com":
+  {
+    "name": "DC Gazette",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  },
+  "rightwingnews.com":
+  {
+    "name": "Right Wing News",
+    "categories": ["right-wing", "misinformation"]
+  },
+  "youngcons.com":
+  {
+    "name": "Young Conservatives",
+    "categories": ["right-wing", "misinformation", "clickbait"]
+  }
+}
